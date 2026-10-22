@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Gloss — the meaning a word has in the sentence you are reading</title>
+    <meta property="og:title" content="Gloss — the meaning a word has in the sentence you are reading" />
+    <meta
+      property="og:description"
+      content="Select a word and see what the writer meant by it. Offline, no account, nothing uploaded. $10, once."
+    />
+    <meta property="og:type" content="video.other" />
+    <meta property="og:video" content="gloss-sales.mp4" />
+    <meta property="og:image" content="gloss-thumbnail.png" />
+    <!--
+      The page for embedding the thirty-second video somewhere else: an <iframe> pointed here
+      plays the film with no surrounding site. It matches the video's paper colour, so the
+      letterboxing is invisible.
+    -->
+    <style>
+      :root { color-scheme: light; }
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        background: #fafaf6;
+      }
+      body {
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+      }
+      video {
+        display: block;
+        width: 100%;
+        height: 100%;
+        max-height: 100vh;
+        object-fit: contain;
+        background: #fafaf6;
+      }
+    </style>
+  </head>
+  <body>
+    <video
+      src="gloss-sales.mp4"
+      poster="gloss-thumbnail.png"
+      width="1920"
+      height="1080"
+      autoplay
+      muted
+      loop
+      playsinline
+      controls
+      preload="metadata"
+      aria-label="Gloss in use: a word is selected in an article, and the panel gives its meaning in that sentence"
+    ></video>
+  </body>
+</html>
