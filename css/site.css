@@ -1,0 +1,240 @@
+:root {
+  color-scheme: light;
+  --bg: #fbfaf7;
+  --paper: #ffffff;
+  --ink: #16181b;
+  --muted: #636a78;
+  --line: #e6e2d8;
+  --accent: #b8860b;
+  --deep: #1c1e24;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.65 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: #1f6feb; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
+.narrow { max-width: 700px; }
+
+/* --------------------------------- header --------------------------------- */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: rgba(251, 250, 247, 0.88);
+  backdrop-filter: saturate(180%) blur(12px);
+  border-bottom: 1px solid var(--line);
+}
+.bar { display: flex; align-items: center; gap: 20px; height: 60px; }
+.brand { display: flex; align-items: center; gap: 10px; color: var(--ink); font-weight: 620; letter-spacing: -0.01em; }
+.brand:hover { text-decoration: none; }
+.mark {
+  width: 26px; height: 26px; border-radius: 8px;
+  background: linear-gradient(150deg, #fdfaf1, #f3e6c8);
+  border: 1px solid #e6dcc0;
+  display: grid; place-items: center;
+  font-family: Georgia, serif; font-size: 15px; font-weight: 700; color: #8a6d1f;
+}
+nav { display: flex; gap: 22px; margin-left: auto; font-size: 14.5px; }
+nav a { color: var(--muted); }
+nav a:hover { color: var(--ink); text-decoration: none; }
+
+.btn {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 10px 18px; border-radius: 10px; border: 1px solid transparent;
+  background: var(--deep); color: #fff; font: inherit; font-weight: 540; cursor: pointer;
+}
+.btn:hover { text-decoration: none; background: #2a2e37; }
+.btn.ghost { background: #fff; color: var(--ink); border-color: var(--line); }
+.btn.ghost:hover { background: #f5f3ec; }
+.btn.big { padding: 13px 24px; font-size: 17px; }
+.btn.gold { background: #8a6d1f; }
+.btn.gold:hover { background: #74591a; }
+
+/* ---------------------------------- hero ---------------------------------- */
+
+.hero {
+  padding: 84px 0 62px;
+  text-align: center;
+  background:
+    radial-gradient(60% 120% at 50% -15%, rgba(184, 134, 11, 0.13), transparent 62%),
+    radial-gradient(46% 90% at 88% 6%, rgba(31, 111, 235, 0.07), transparent 60%);
+}
+.eyebrow {
+  display: inline-block; font-size: 12.5px; font-weight: 600; letter-spacing: 0.04em;
+  color: #8a6d1f; background: rgba(184, 134, 11, 0.1); padding: 5px 13px; border-radius: 999px; margin-bottom: 22px;
+}
+h1 {
+  font-size: clamp(34px, 5.6vw, 56px); line-height: 1.06; letter-spacing: -0.03em;
+  margin: 0 0 18px; font-weight: 680;
+}
+h1 em {
+  font-style: normal;
+  background: linear-gradient(100deg, #8a6d1f, #1f6feb);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.lede { font-size: 19px; color: var(--muted); max-width: 640px; margin: 0 auto 30px; }
+.cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 18px; }
+.fine { font-size: 13.5px; color: var(--muted); }
+.badges { display: flex; gap: 26px; justify-content: center; flex-wrap: wrap; margin-top: 36px; font-size: 14px; color: var(--muted); }
+.badges b { color: var(--ink); font-weight: 600; }
+
+/* ---------------------------------- demo ---------------------------------- */
+
+section { padding: 70px 0; border-top: 1px solid var(--line); }
+section.tint { background: #f4f2ec; }
+h2 { font-size: clamp(25px, 3.4vw, 34px); letter-spacing: -0.022em; line-height: 1.14; margin: 0 0 12px; font-weight: 660; }
+h3 { font-size: 18px; margin: 0 0 8px; letter-spacing: -0.012em; }
+.section-head { max-width: 660px; margin: 0 auto 42px; text-align: center; }
+.section-head p { color: var(--muted); font-size: 17px; margin: 0; }
+
+.demo {
+  position: relative;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 34px 38px;
+  box-shadow: 0 2px 4px rgba(16, 20, 28, 0.04), 0 20px 48px rgba(16, 20, 28, 0.08);
+  font: 19px/1.8 Georgia, "Iowan Old Style", "Times New Roman", serif;
+}
+.demo p { margin: 0 0 1.1em; }
+.demo p:last-child { margin-bottom: 0; }
+.demo .hint {
+  font: 13px/1.5 ui-sans-serif, system-ui, sans-serif;
+  color: var(--muted); border-top: 1px solid var(--line); margin-top: 22px; padding-top: 14px;
+}
+.demo .hint b { color: var(--ink); }
+
+/* ---------------------------------- shots ---------------------------------- */
+
+/* The pictures of the extension at work. They are photographs, so they are big: they are the
+   first thing a reader should see after the demo. */
+.shots { display: grid; gap: 20px; }
+.shots--three { grid-template-columns: repeat(3, 1fr); margin-top: 20px; }
+@media (max-width: 900px) {
+  .shots--three { grid-template-columns: 1fr; }
+}
+.shot {
+  margin: 0;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(16, 20, 28, 0.04), 0 16px 40px rgba(16, 20, 28, 0.07);
+}
+.shot img { display: block; width: 100%; height: auto; }
+.shot figcaption { padding: 15px 19px 18px; font-size: 14.5px; color: var(--muted); line-height: 1.55; }
+.shot figcaption b { display: block; color: var(--ink); font-size: 15.5px; margin-bottom: 3px; }
+.shot--wide { margin-bottom: 20px; }
+.shot--wide figcaption { max-width: 720px; }
+
+/* --------------------------------- features -------------------------------- */
+
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 20px; }
+.card { border: 1px solid var(--line); border-radius: 13px; padding: 22px; background: #fff; }
+.card p { color: var(--muted); margin: 0; font-size: 15px; }
+.card .icon {
+  width: 32px; height: 32px; border-radius: 9px; display: grid; place-items: center;
+  background: linear-gradient(150deg, rgba(184, 134, 11, 0.14), rgba(31, 111, 235, 0.1));
+  margin-bottom: 12px; font-size: 15px;
+}
+
+/* --------------------------------- pricing -------------------------------- */
+
+.plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 18px; align-items: start; }
+.plan { border: 1px solid var(--line); border-radius: 14px; padding: 24px; background: #fff; }
+.plan.featured { border-color: var(--ink); box-shadow: 0 14px 38px rgba(16, 20, 28, 0.11); position: relative; }
+.plan .tag {
+  position: absolute; top: -11px; left: 22px; font-size: 12px; font-weight: 640;
+  background: var(--deep); color: #fff; padding: 3px 10px; border-radius: 999px;
+}
+.price { font-size: 38px; font-weight: 700; letter-spacing: -0.03em; margin: 6px 0 2px; }
+.price small { font-size: 15px; font-weight: 450; color: var(--muted); letter-spacing: 0; }
+.plan ul { list-style: none; padding: 0; margin: 16px 0 20px; font-size: 14.5px; color: var(--muted); }
+.plan li { padding: 5px 0 5px 22px; position: relative; }
+.plan li::before { content: ''; position: absolute; left: 2px; top: 13px; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+.plan .btn { width: 100%; justify-content: center; }
+.note { text-align: center; color: var(--muted); font-size: 14.5px; margin-top: 26px; }
+
+/* ----------------------------------- faq ----------------------------------- */
+
+.faq { max-width: 740px; margin: 0 auto; }
+.faq details { border-bottom: 1px solid var(--line); padding: 15px 0; }
+.faq summary { cursor: pointer; font-weight: 560; font-size: 16.5px; list-style: none; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::before { content: '+'; display: inline-block; width: 22px; color: var(--muted); font-weight: 400; }
+.faq details[open] summary::before { content: '−'; }
+.faq p { margin: 10px 0 0 22px; color: var(--muted); font-size: 15px; }
+
+/* --------------------------------- compare --------------------------------- */
+
+table.cmp { width: 100%; border-collapse: collapse; font-size: 15px; margin: 26px 0; }
+table.cmp th, table.cmp td { text-align: left; padding: 11px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.cmp th { font-weight: 600; font-size: 14px; color: var(--muted); }
+table.cmp td.yes { color: #8a6d1f; font-weight: 600; }
+table.cmp td.no { color: #a9adb6; }
+
+/* --------------------------------- footer ---------------------------------- */
+
+footer { border-top: 1px solid var(--line); background: #f4f2ec; padding: 46px 0; font-size: 14.5px; color: var(--muted); }
+.foot { display: flex; gap: 26px; flex-wrap: wrap; align-items: center; }
+.foot nav { margin-left: 0; gap: 20px; }
+.foot .spacer { flex: 1; }
+
+@media (max-width: 640px) {
+  nav { display: none; }
+  .hero { padding: 48px 0 38px; }
+  section { padding: 48px 0; }
+  .demo { padding: 22px 20px; font-size: 17px; }
+}
+
+/* The film, under the hero. Muted and looping, the way a web page is allowed to. */
+.hero-video {
+  display: block;
+  width: min(960px, 100%);
+  height: auto;
+  margin: 34px auto 0;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(16, 20, 28, 0.05), 0 24px 60px rgba(16, 20, 28, 0.12);
+}
+
+/* The name in the header, and a way to write.
+ *
+ * Small on purpose: the header is for the page, not for me. But a product that says "one
+ * person answers the email" should say who, and how. */
+.contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  color: var(--muted);
+  padding: 5px 11px 5px 9px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  white-space: nowrap;
+}
+.contact:hover { text-decoration: none; color: var(--ink); border-color: #cfc9ba; }
+.contact .who { font-weight: 560; color: var(--ink); }
+.contact .write::before { content: "·"; margin-right: 7px; color: #cfc9ba; }
+.contact:hover .write { color: #8a6d1f; }
+
+@media (max-width: 760px) {
+  .contact .who { display: none; }
+  .contact .write::before { content: ""; margin: 0; }
+  .contact { padding: 5px 10px; }
+}

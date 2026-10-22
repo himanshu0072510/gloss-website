@@ -1,0 +1,1438 @@
+{
+  "_about": "Usage notes. A dictionary's own answer to the problem of a word with several lives: when you see these words near it, this is the meaning meant. The engine leans on them the way a reader leans on a usage note. Each entry is { when: words in the sentence, sense: a word in the meaning's definition }.",
+  "perfunctory": [
+    {
+      "when": [
+        "apology",
+        "excuse",
+        "nod",
+        "handshake",
+        "applause",
+        "acknowledgement",
+        "acknowledgment"
+      ],
+      "sense": "formality"
+    }
+  ],
+  "facility": [
+    {
+      "when": [
+        "with",
+        "easily",
+        "fluently",
+        "grace",
+        "skill",
+        "ability"
+      ],
+      "sense": "skillful"
+    }
+  ],
+  "charge": [
+    {
+      "when": [
+        "price",
+        "cost",
+        "fee",
+        "free",
+        "delivery",
+        "payment",
+        "repair",
+        "bill",
+        "amount",
+        "much"
+      ],
+      "sense": "price"
+    },
+    {
+      "when": [
+        "arrest",
+        "accused",
+        "court",
+        "guilty",
+        "crime",
+        "theft",
+        "charged with"
+      ],
+      "sense": "accused"
+    }
+  ],
+  "pitch": [
+    {
+      "when": [
+        "pitch of the roof",
+        "roof pitch",
+        "steep",
+        "snow",
+        "angle",
+        "incline",
+        "hill"
+      ],
+      "sense": "horizontal"
+    },
+    {
+      "when": [
+        "voice",
+        "note",
+        "singer",
+        "tone",
+        "melody",
+        "concert",
+        "vocal"
+      ],
+      "sense": "sound"
+    }
+  ],
+  "ring": [
+    {
+      "when": [
+        "door",
+        "bell",
+        "telephone",
+        "phone",
+        "answered",
+        "rang"
+      ],
+      "sense": "bell ringing"
+    }
+  ],
+  "draft": [
+    {
+      "when": [
+        "window",
+        "cold",
+        "air",
+        "wind",
+        "felt",
+        "draught",
+        "chill"
+      ],
+      "sense": "current of air"
+    },
+    {
+      "when": [
+        "document",
+        "version",
+        "letter",
+        "proposal",
+        "contract"
+      ],
+      "sense": "preliminary"
+    }
+  ],
+  "light": [
+    {
+      "when": [
+        "room",
+        "bright",
+        "lamp",
+        "sun",
+        "day",
+        "glow",
+        "brightness",
+        "yellow"
+      ],
+      "sense": "luminous"
+    },
+    {
+      "when": [
+        "weight",
+        "heavy",
+        "kilogram",
+        "burden",
+        "box",
+        "size",
+        "carried",
+        "lifted"
+      ],
+      "sense": "little physical weight"
+    }
+  ],
+  "match": [
+    {
+      "when": [
+        "exact",
+        "identical",
+        "copy",
+        "pair",
+        "same",
+        "equivalent"
+      ],
+      "sense": "duplicate"
+    },
+    {
+      "when": [
+        "fire",
+        "flame",
+        "struck",
+        "lit",
+        "candle"
+      ],
+      "sense": "burning piece"
+    },
+    {
+      "when": [
+        "game",
+        "score",
+        "tournament",
+        "final",
+        "won"
+      ],
+      "sense": "contest"
+    },
+    {
+      "when": [
+        "firm",
+        "rival",
+        "company",
+        "side",
+        "equal",
+        "for the"
+      ],
+      "sense": "be equal to"
+    }
+  ],
+  "serve": [
+    {
+      "when": [
+        "purpose",
+        "function",
+        "useful",
+        "aim",
+        "point",
+        "serves to"
+      ],
+      "sense": "purpose"
+    },
+    {
+      "when": [
+        "food",
+        "dinner",
+        "waiter",
+        "portions",
+        "customers",
+        "station",
+        "village",
+        "twice a day"
+      ],
+      "sense": "be used by"
+    }
+  ],
+  "structure": [
+    {
+      "when": [
+        "building",
+        "organisation",
+        "organization",
+        "of the",
+        "makeup",
+        "shape",
+        "form"
+      ],
+      "sense": "construction"
+    }
+  ],
+  "witness": [
+    {
+      "when": [
+        "to",
+        "was a",
+        "testified",
+        "statement",
+        "account",
+        "saw",
+        "told",
+        "court",
+        "evidence"
+      ],
+      "sense": "sees an event"
+    }
+  ],
+  "impact": [
+    {
+      "when": [
+        "effect",
+        "consequence",
+        "on",
+        "closure",
+        "change",
+        "influence",
+        "of the"
+      ],
+      "sense": "consequence"
+    }
+  ],
+  "judge": [
+    {
+      "when": [
+        "value",
+        "painting",
+        "quality",
+        "merit",
+        "estimate",
+        "assess"
+      ],
+      "sense": "critical opinion"
+    },
+    {
+      "when": [
+        "court",
+        "jury",
+        "case",
+        "law",
+        "trial",
+        "sentence"
+      ],
+      "sense": "public official"
+    }
+  ],
+  "label": [
+    {
+      "when": [
+        "bottle",
+        "jar",
+        "package",
+        "tag",
+        "vintage",
+        "name on"
+      ],
+      "sense": "identifying"
+    },
+    {
+      "when": [
+        "describe",
+        "called",
+        "brand",
+        "tagged"
+      ],
+      "sense": "brief description"
+    }
+  ],
+  "current": [
+    {
+      "when": [
+        "boat",
+        "river",
+        "sea",
+        "flow",
+        "stream",
+        "tide",
+        "electrical"
+      ],
+      "sense": "flow of a fluid"
+    },
+    {
+      "when": [
+        "now",
+        "present",
+        "latest",
+        "recent",
+        "affairs"
+      ],
+      "sense": "present"
+    }
+  ],
+  "tip": [
+    {
+      "when": [
+        "porter",
+        "waiter",
+        "gratuity",
+        "tipped",
+        "left",
+        "paid",
+        "round"
+      ],
+      "sense": "small amount of money"
+    },
+    {
+      "when": [
+        "advice",
+        "hint",
+        "useful",
+        "suggestion",
+        "her tip",
+        "his tip",
+        "a tip",
+        "simple"
+      ],
+      "sense": "indication of potential opportunity"
+    }
+  ],
+  "wish": [
+    {
+      "when": [
+        "had",
+        "hoped",
+        "wanted",
+        "that",
+        "rather"
+      ],
+      "sense": "expression of some desire"
+    }
+  ],
+  "bank": [
+    {
+      "when": [
+        "river",
+        "shore",
+        "hill",
+        "slope",
+        "grass",
+        "picnic"
+      ],
+      "sense": "sloping land"
+    },
+    {
+      "when": [
+        "money",
+        "account",
+        "loan",
+        "interest",
+        "deposit",
+        "savings"
+      ],
+      "sense": "financial institution"
+    }
+  ],
+  "issue": [
+    {
+      "when": [
+        "problem",
+        "question",
+        "matter",
+        "topic",
+        "raised",
+        "dispute"
+      ],
+      "sense": "important question"
+    },
+    {
+      "when": [
+        "magazine",
+        "number",
+        "edition",
+        "publish",
+        "released"
+      ],
+      "sense": "series published"
+    }
+  ],
+  "note": [
+    {
+      "when": [
+        "left",
+        "table",
+        "margin",
+        "message",
+        "wrote",
+        "signed",
+        "memo",
+        "said"
+      ],
+      "sense": "brief written record"
+    },
+    {
+      "when": [
+        "voice",
+        "tone",
+        "singer",
+        "sang",
+        "music"
+      ],
+      "sense": "tone of voice"
+    }
+  ],
+  "practice": [
+    {
+      "when": [
+        "not",
+        "unusual",
+        "customary",
+        "usual",
+        "custom",
+        "no"
+      ],
+      "sense": "customary way"
+    },
+    {
+      "when": [
+        "training",
+        "rehearsal",
+        "exercise",
+        "session"
+      ],
+      "sense": "systematic training"
+    }
+  ],
+  "sense": [
+    {
+      "when": [
+        "had a",
+        "that something",
+        "feeling",
+        "inkling",
+        "instinct"
+      ],
+      "sense": "conscious awareness"
+    },
+    {
+      "when": [
+        "meaning",
+        "word",
+        "definition",
+        "in what"
+      ],
+      "sense": "meaning of a word"
+    }
+  ],
+  "cogent": [
+    {
+      "when": [
+        "argument",
+        "case",
+        "reason",
+        "persuasive",
+        "made"
+      ],
+      "sense": "persuasive"
+    }
+  ],
+  "sanguine": [
+    {
+      "when": [
+        "about",
+        "optimistic",
+        "future",
+        "prospect",
+        "confident",
+        "view",
+        "outlook",
+        "mood",
+        "account"
+      ],
+      "sense": "optimistic"
+    },
+    {
+      "when": [
+        "complexion",
+        "cheeks",
+        "ruddy",
+        "outdoor"
+      ],
+      "sense": "reddish"
+    }
+  ],
+  "tenable": [
+    {
+      "when": [
+        "argument",
+        "position",
+        "defensible",
+        "reasoning",
+        "case"
+      ],
+      "sense": "sound reasoning"
+    }
+  ],
+  "indefensible": [
+    {
+      "when": [
+        "position",
+        "argument",
+        "wrong",
+        "untenable",
+        "criticism"
+      ],
+      "sense": "defended or justified"
+    }
+  ],
+  "bat": [
+    {
+      "when": [
+        "baseball",
+        "cricket",
+        "club",
+        "gloved",
+        "innings"
+      ],
+      "sense": "baseball"
+    }
+  ],
+  "bear": [
+    {
+      "when": [
+        "animal",
+        "forest",
+        "honey",
+        "hug",
+        "cubs",
+        "hills",
+        "wild",
+        "hunt",
+        "den"
+      ],
+      "sense": "plantigrade"
+    },
+    {
+      "when": [
+        "responsibility",
+        "pain",
+        "witness",
+        "market",
+        "grudge",
+        "brought"
+      ],
+      "sense": "have"
+    }
+  ],
+  "beat": [
+    {
+      "when": [
+        "defeated",
+        "won",
+        "competition",
+        "raced",
+        "faster"
+      ],
+      "sense": "win"
+    },
+    {
+      "when": [
+        "rhythm",
+        "drum",
+        "metre",
+        "meter",
+        "poem"
+      ],
+      "sense": "rhythm"
+    }
+  ],
+  "bill": [
+    {
+      "when": [
+        "restaurant",
+        "restaurant",
+        "paid",
+        "invoice",
+        "account",
+        "money"
+      ],
+      "sense": "statement of money owed"
+    }
+  ],
+  "bow": [
+    {
+      "when": [
+        "ribbon",
+        "tie",
+        "ship",
+        "front",
+        "curve"
+      ],
+      "sense": "knot"
+    },
+    {
+      "when": [
+        "bent",
+        "gesture",
+        "introduced",
+        "head",
+        "greeting"
+      ],
+      "sense": "bend"
+    }
+  ],
+  "case": [
+    {
+      "when": [
+        "example",
+        "instance",
+        "of the",
+        "study",
+        "in this"
+      ],
+      "sense": "example"
+    },
+    {
+      "when": [
+        "law",
+        "court",
+        "trial",
+        "evidence",
+        "argument"
+      ],
+      "sense": "lawsuit"
+    }
+  ],
+  "change": [
+    {
+      "when": [
+        "altered",
+        "different",
+        "mind",
+        "shift",
+        "schedule",
+        "law",
+        "rule",
+        "policy",
+        "plan"
+      ],
+      "sense": "alter"
+    },
+    {
+      "when": [
+        "money",
+        "coins",
+        "notes",
+        "pocket",
+        "giving",
+        "loose"
+      ],
+      "sense": "small money"
+    }
+  ],
+  "close": [
+    {
+      "when": [
+        "near",
+        "nearby",
+        "shut",
+        "door",
+        "ended",
+        "final"
+      ],
+      "sense": "near"
+    },
+    {
+      "when": [
+        "shut",
+        "door",
+        "lid",
+        "tight",
+        "ended",
+        "shop"
+      ],
+      "sense": "shut"
+    }
+  ],
+  "count": [
+    {
+      "when": [
+        "important",
+        "matters",
+        "relevant",
+        "tally",
+        "the"
+      ],
+      "sense": "important"
+    },
+    {
+      "when": [
+        "numbered",
+        "how many",
+        "tally",
+        "counted",
+        "counting"
+      ],
+      "sense": "enumerate"
+    }
+  ],
+  "cover": [
+    {
+      "when": [
+        "book",
+        "lid",
+        "blanket",
+        "table",
+        "page"
+      ],
+      "sense": "surface"
+    },
+    {
+      "when": [
+        "included",
+        "contains",
+        "insurance",
+        "story",
+        "report"
+      ],
+      "sense": "include"
+    }
+  ],
+  "cut": [
+    {
+      "when": [
+        "price",
+        "cost",
+        "reduced",
+        "pay",
+        "wages",
+        "budget"
+      ],
+      "sense": "reduce"
+    },
+    {
+      "when": [
+        "knife",
+        "sliced",
+        "hair",
+        "grass",
+        "piece"
+      ],
+      "sense": "divide"
+    }
+  ],
+  "date": [
+    {
+      "when": [
+        "romantic",
+        "dinner",
+        "partner",
+        "met",
+        "asked out"
+      ],
+      "sense": "romantic"
+    },
+    {
+      "when": [
+        "day",
+        "calendar",
+        "of the",
+        "when",
+        "due"
+      ],
+      "sense": "day"
+    }
+  ],
+  "dress": [
+    {
+      "when": [
+        "gown",
+        "clothes",
+        "wore",
+        "fashion",
+        "costume"
+      ],
+      "sense": "clothing"
+    },
+    {
+      "when": [
+        "prepared",
+        "cooking",
+        "chicken",
+        "salad",
+        "serve"
+      ],
+      "sense": "prepare"
+    }
+  ],
+  "drive": [
+    {
+      "when": [
+        "car",
+        "road",
+        "drove",
+        "engine",
+        "driving"
+      ],
+      "sense": "operate"
+    },
+    {
+      "when": [
+        "energy",
+        "motivation",
+        "effort",
+        "purpose",
+        "campaign"
+      ],
+      "sense": "energy"
+    }
+  ],
+  "fall": [
+    {
+      "when": [
+        "autumn",
+        "season",
+        "leaves",
+        "weather",
+        "spring"
+      ],
+      "sense": "season"
+    },
+    {
+      "when": [
+        "dropped",
+        "tripped",
+        "down",
+        "floor",
+        "collapse"
+      ],
+      "sense": "drop"
+    }
+  ],
+  "field": [
+    {
+      "when": [
+        "area",
+        "pasture",
+        "crop",
+        "farm",
+        "territory"
+      ],
+      "sense": "open area"
+    },
+    {
+      "when": [
+        "area of study",
+        "speciality",
+        "expertise",
+        "profession"
+      ],
+      "sense": "area of study"
+    }
+  ],
+  "file": [
+    {
+      "when": [
+        "folder",
+        "documents",
+        "records",
+        "case",
+        "office"
+      ],
+      "sense": "records"
+    },
+    {
+      "when": [
+        "complaint",
+        "lawsuit",
+        "report",
+        "submitted",
+        "legal"
+      ],
+      "sense": "complaint"
+    }
+  ],
+  "fire": [
+    {
+      "when": [
+        "flames",
+        "burning",
+        "blaze",
+        "heater",
+        "campfire"
+      ],
+      "sense": "blaze"
+    },
+    {
+      "when": [
+        "dismissed",
+        "sacked",
+        "employee",
+        "shot",
+        "hire"
+      ],
+      "sense": "dismiss"
+    }
+  ],
+  "hold": [
+    {
+      "when": [
+        "grip",
+        "hand",
+        "grabbed",
+        "clutched",
+        "firm"
+      ],
+      "sense": "grasp"
+    },
+    {
+      "when": [
+        "meeting",
+        "delay",
+        "wait",
+        "court",
+        "retain"
+      ],
+      "sense": "keep"
+    }
+  ],
+  "lead": [
+    {
+      "when": [
+        "led",
+        "team",
+        "guided",
+        "director",
+        "headed"
+      ],
+      "sense": "guide"
+    },
+    {
+      "when": [
+        "metal",
+        "heavy",
+        "pipe",
+        "wire"
+      ],
+      "sense": "metal"
+    }
+  ],
+  "mark": [
+    {
+      "when": [
+        "spot",
+        "stain",
+        "sign",
+        "symbol",
+        "cross"
+      ],
+      "sense": "a visible indication"
+    },
+    {
+      "when": [
+        "grade",
+        "score",
+        "points",
+        "exam",
+        "rated"
+      ],
+      "sense": "a grade"
+    }
+  ],
+  "mean": [
+    {
+      "when": [
+        "average",
+        "intention",
+        "kind",
+        "meaned",
+        "narrow",
+        "poor"
+      ],
+      "sense": "average"
+    },
+    {
+      "when": [
+        "signify",
+        "intended",
+        "meaning",
+        "what did it"
+      ],
+      "sense": "intend"
+    }
+  ],
+  "miss": [
+    {
+      "when": [
+        "failed to",
+        "not notice",
+        "overlooked",
+        "train",
+        "target",
+        "school"
+      ],
+      "sense": "fail to hit"
+    },
+    {
+      "when": [
+        "absence",
+        "without",
+        "sorry",
+        "regret"
+      ],
+      "sense": "lack"
+    }
+  ],
+  "pass": [
+    {
+      "when": [
+        "by",
+        "went",
+        "moved",
+        "beside",
+        "street"
+      ],
+      "sense": "go by"
+    },
+    {
+      "when": [
+        "exam",
+        "test",
+        "approved",
+        "grade",
+        "succeeded"
+      ],
+      "sense": "be approved"
+    }
+  ],
+  "point": [
+    {
+      "when": [
+        "sharp end",
+        "needle",
+        "tip",
+        "dot",
+        "argument"
+      ],
+      "sense": "a tapering end"
+    },
+    {
+      "when": [
+        "matter",
+        "issue",
+        "topic",
+        "argument",
+        "view",
+        "of view"
+      ],
+      "sense": "issue"
+    }
+  ],
+  "record": [
+    {
+      "when": [
+        "album",
+        "song",
+        "vinyl",
+        "single",
+        "played"
+      ],
+      "sense": "a disc"
+    },
+    {
+      "when": [
+        "log",
+        "note",
+        "minutes",
+        "document",
+        "kept"
+      ],
+      "sense": "a written account"
+    }
+  ],
+  "roll": [
+    {
+      "when": [
+        "bread",
+        "tortilla",
+        "cylinder",
+        "dough",
+        "log"
+      ],
+      "sense": "cylinder"
+    },
+    {
+      "when": [
+        "tumble",
+        "over",
+        "rocking",
+        "rattle",
+        "along"
+      ],
+      "sense": "rock"
+    }
+  ],
+  "run": [
+    {
+      "when": [
+        "business",
+        "company",
+        "shop",
+        "country",
+        "manages",
+        "managing",
+        "direct or control"
+      ],
+      "sense": "direct or control"
+    },
+    {
+      "when": [
+        "raced",
+        "sprint",
+        "marathon",
+        "jogged",
+        "dash",
+        "move fast"
+      ],
+      "sense": "move fast by using one's feet"
+    }
+  ],
+  "second": [
+    {
+      "when": [
+        "place",
+        "came",
+        "finished",
+        "finish",
+        "ranked",
+        "prize",
+        "race"
+      ],
+      "sense": "second place"
+    },
+    {
+      "when": [
+        "minute",
+        "waited",
+        "moment",
+        "brief",
+        "ago",
+        "within"
+      ],
+      "sense": "1/60 of a minute"
+    }
+  ],
+  "set": [
+    {
+      "when": [
+        "collection",
+        "series",
+        "group of",
+        "kit",
+        "collection of"
+      ],
+      "sense": "a group of things"
+    },
+    {
+      "when": [
+        "put down",
+        "placed",
+        "sunset",
+        "fixed",
+        "ready"
+      ],
+      "sense": "put"
+    }
+  ],
+  "sound": [
+    {
+      "when": [
+        "noise",
+        "loud",
+        "echo",
+        "bang",
+        "music",
+        "noise"
+      ],
+      "sense": "noise"
+    },
+    {
+      "when": [
+        "healthy",
+        "solid",
+        "reliable",
+        "wholesome",
+        "sleep"
+      ],
+      "sense": "in good condition"
+    }
+  ],
+  "spring": [
+    {
+      "when": [
+        "season",
+        "flowers",
+        "march",
+        "coil",
+        "metal"
+      ],
+      "sense": "season"
+    },
+    {
+      "when": [
+        "jumped",
+        "leaped",
+        "source",
+        "origin",
+        "leaps and bounds"
+      ],
+      "sense": "move forward by leaps and bounds"
+    }
+  ],
+  "stand": [
+    {
+      "when": [
+        "upright",
+        "on end",
+        "stood",
+        "position",
+        "shop",
+        "be standing"
+      ],
+      "sense": "be standing"
+    },
+    {
+      "when": [
+        "tolerated",
+        "bore",
+        "endured",
+        "accepted",
+        "put up with",
+        "for so long"
+      ],
+      "sense": "put up with"
+    }
+  ],
+  "strike": [
+    {
+      "when": [
+        "workers",
+        "walked out",
+        "stopped work",
+        "industrial",
+        "action",
+        "refusal to work"
+      ],
+      "sense": "refusal to work in protest"
+    },
+    {
+      "when": [
+        "hit",
+        "struck",
+        "ball",
+        "match",
+        "lightning",
+        "sharp blow"
+      ],
+      "sense": "sharp blow"
+    }
+  ],
+  "subject": [
+    {
+      "when": [
+        "matter",
+        "topic",
+        "open to",
+        "discussion",
+        "the",
+        "question"
+      ],
+      "sense": "subject matter of a conversation"
+    },
+    {
+      "when": [
+        "ruled",
+        "exposed",
+        "liable",
+        "to",
+        "endanger"
+      ],
+      "sense": "make accountable for"
+    }
+  ],
+  "take": [
+    {
+      "when": [
+        "brought",
+        "carried",
+        "picked up",
+        "accepted",
+        "job",
+        "in one's hands"
+      ],
+      "sense": "get into one's hands"
+    },
+    {
+      "when": [
+        "photograph",
+        "picture",
+        "swallow",
+        "medicine"
+      ],
+      "sense": "act of photographing"
+    }
+  ],
+  "tell": [
+    {
+      "when": [
+        "said",
+        "asked",
+        "informed",
+        "told",
+        "spoke",
+        "news"
+      ],
+      "sense": "express in words"
+    },
+    {
+      "when": [
+        "apart",
+        "difference",
+        "discern",
+        "comprehend"
+      ],
+      "sense": "discern or comprehend"
+    }
+  ],
+  "turn": [
+    {
+      "when": [
+        "rotated",
+        "twisted",
+        "corner",
+        "wheel",
+        "key",
+        "page",
+        "direction"
+      ],
+      "sense": "change orientation or direction"
+    },
+    {
+      "when": [
+        "occasion",
+        "opportunity",
+        "go wrong",
+        "unforeseen",
+        "outcome"
+      ],
+      "sense": "unforeseen development"
+    }
+  ],
+  "watch": [
+    {
+      "when": [
+        "looked at",
+        "observed",
+        "television",
+        "timed",
+        "glanced",
+        "attentively"
+      ],
+      "sense": "look attentively"
+    },
+    {
+      "when": [
+        "small",
+        "portable",
+        "wrist",
+        "clock",
+        "pocket"
+      ],
+      "sense": "portable timepiece"
+    }
+  ],
+  "work": [
+    {
+      "when": [
+        "function",
+        "operated",
+        "running",
+        "in operation",
+        "machine",
+        "system"
+      ],
+      "sense": "perform as expected"
+    },
+    {
+      "when": [
+        "labour",
+        "effort",
+        "employment",
+        "job",
+        "occupation"
+      ],
+      "sense": "occupation for which you are paid"
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gloss — what does this word mean here?</title>
+    <meta
+      name="description"
+      content="Select a word on a web page and see what it means in that sentence — not the nine meanings a dictionary lists. Offline, no account, nothing uploaded."
+    />
+    <link rel="icon" href="img/icon128.png" />
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrap bar">
+        <a class="brand" href="index.html"><span class="mark">G</span>Gloss</a>
+        <nav>
+          <a href="#demo">Try it</a>
+          <a href="#how">How it works</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#faq">Questions</a>
+          <a href="compare/dictionary-extensions.html">Comparisons</a>
+          <a href="download.html">Download</a>
+        </nav>
+        <a class="contact" href="mailto:imhimanshu758@gmail.com?subject=Gloss"><span class="who">Himanshu</span><span class="write">Contact me</span></a>
+        <a class="btn gold" href="#pricing">Get Gloss</a>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="wrap">
+        <span class="eyebrow">Chrome extension · offline · no account</span>
+        <h1>What does this word mean <em>here</em>?</h1>
+        <p class="lede">
+          Select a word on any page and Gloss tells you what the writer meant by it — in that
+          sentence, not the nine meanings a dictionary lists and leaves you to guess between.
+          Nothing is uploaded, and it works with the network off.
+        </p>
+        <div class="cta">
+          <a class="btn big" href="#demo">Try it right here</a>
+          <a class="btn big ghost" href="#pricing">Buy it — $19.99</a>
+        </div>
+        <p class="fine">$19.99, once. No account, no subscription, nothing uploaded, and it works with the network off.</p>
+        <video
+          class="hero-video"
+          src="gloss-sales.mp4"
+          poster="gloss-thumbnail.png"
+          autoplay
+          muted
+          loop
+          playsinline
+          width="960"
+          height="540"
+        ></video>
+        <div class="badges">
+          <span><b>Offline</b> — the dictionary is in the extension</span>
+          <span><b>No account</b> — nothing to sign up for</span>
+          <span><b>Nothing uploaded</b> — there is no server</span>
+        </div>
+      </div>
+    </div>
+
+    <section id="demo" class="tint">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>This is the real engine, running on this page</h2>
+          <p>
+            Select any word in the text below. The first meaning you see is the one that fits the
+            sentence it is in — and the others are there underneath, in order, with examples.
+          </p>
+        </div>
+
+        <div class="demo">
+          <div id="panel" style="display: none"></div>
+          <p>
+            The council failed to reach a <b>quorum</b> on Tuesday, and the report was published
+            without comment. She was <b>sanguine</b> about the prospects, and her argument for the
+            new scheme was <b>cogent</b>.
+          </p>          <p>
+            The <b>sanguine</b> character of the debate was noted by the chair. He took a
+            <b>bribe</b> to speed up the permit, and the <b>tenable</b> position was hard to find.
+            The <b>perfunctory</b> nod changed nothing, and the <b>facility</b> of the explanation
+            was the point of it: a <b>lugubrious</b> account of the <b>indefensible</b> decision,
+            the <b>ostensible</b> reasoning, a <b>profligate</b> spending of the committee's time.
+          </p>
+          <p class="hint">
+            <b>Try “sanguine”.</b> It appears twice, and it means two different things — the
+            optimistic one in the first sentence, the reddish one in the second. A dictionary
+            popup gives you both at once, in no order. Gloss picks the one the sentence means.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="shots">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>See it doing the work</h2>
+          <p>
+            These are photographs, not drawings: the extension, on a real page, in a real
+            browser, doing exactly what it does for you.
+          </p>
+        </div>
+
+        <figure class="shot shot--wide">
+          <img
+            src="shots/panel.png"
+            alt="A panel on a Wikipedia article: the word Etymology, with the meaning 'a history of a word', one other meaning underneath, and a star to keep it"
+            loading="lazy"
+            width="1280"
+            height="820"
+          />
+          <figcaption>
+            <b>Select a word on any page</b>
+            The panel opens under it with the meaning that fits the sentence, every other meaning
+            underneath in order, an example, and a star to keep the word for good.
+          </figcaption>
+        </figure>
+
+        <div class="shots shots--three">
+          <figure class="shot">
+            <img
+              src="shots/reading.png"
+              alt="The reading mode: the page turned into a quiet column of serif text, with the rare words underlined in yellow and the controls in the bar at the top"
+              loading="lazy"
+              width="1280"
+              height="820"
+            />
+            <figcaption>
+              <b>The reading mode</b>
+              The page becomes a quiet column and the hard words are underlined. Its own bar sets
+              the size, the width, a focus mode, and the underlines.
+            </figcaption>
+          </figure>
+
+          <figure class="shot">
+            <img
+              src="shots/reader.png"
+              alt="Gloss's own PDF reader: a page of Pride and Prejudice, with a word selected and the panel open beside it, and zoom controls in the bar"
+              loading="lazy"
+              width="1280"
+              height="820"
+            />
+            <figcaption>
+              <b>Your own PDF reader</b>
+              Chrome's viewer cannot be extended, so Gloss reads the PDF itself. It zooms, and
+              every word you select is answered the same way it is on a web page.
+            </figcaption>
+          </figure>
+
+          <figure class="shot">
+            <img
+              src="shots/settings.png"
+              alt="The settings page: the words you have looked up, and buttons to export them as text, CSV, an Anki file, or Markdown for Obsidian"
+              loading="lazy"
+              width="1280"
+              height="820"
+            />
+            <figcaption>
+              <b>Your word list, in your tools</b>
+              The words you have looked up, with their meanings — exported as text, as CSV, as an
+              Anki file, or as Markdown for Obsidian.
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="how">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>How it knows</h2>
+          <p>
+            Every dictionary already has the evidence — a million words with meanings, and
+            example sentences for nearly all of them. Nobody was using it this way.
+          </p>
+        </div>
+        <div class="grid">
+          <div class="card">
+            <div class="icon">◈</div>
+            <h3>The examples are the evidence</h3>
+            <p>
+              WordNet gives example sentences for every meaning it holds. Gloss scores each
+              meaning by how much your sentence resembles the examples for it.
+            </p>
+          </div>
+          <div class="card">
+            <div class="icon">⌾</div>
+            <h3>Rare words say more</h3>
+            <p>
+              A word in half of the examples tells you nothing. A word in two of them tells you a
+              great deal. So each word is weighted by how rare it is.
+            </p>
+          </div>
+          <div class="card">
+            <div class="icon">⌘</div>
+            <h3>The part of speech matters</h3>
+            <p>
+              It is the difference between <i>shot</i> the film and the shot put. Gloss works out
+              which one you are using from the words around it.
+            </p>
+          </div>
+          <div class="card">
+            <div class="icon">✦</div>
+            <h3>A million words, and notes beside the awkward ones</h3>
+            <p>
+              WordNet for the meanings, its 2020 refresh, and Wiktionary for the words of the
+              last thirty years. And a table of usage notes — the kind a dictionary prints
+              beside a word with several lives — for the ones that need telling apart.
+            </p>
+          </div>
+          <div class="card">
+            <div class="icon">⊹</div>
+            <h3>The commonest meaning comes first</h3>
+            <p>
+              When the sentence says little, the commonest meaning is what you meant — and when
+              it says a lot, the sentence wins.
+            </p>
+          </div>
+          <div class="card">
+            <div class="icon">◐</div>
+            <h3>A reading mode, too</h3>
+            <p>
+              Turn the page into a quiet column of text and underline the words you are likely to
+              not know. Click one and it is answered.
+            </p>
+          </div>
+          <div class="card">
+            <div class="icon">✓</div>
+            <h3>It admits when it does not know</h3>
+            <p>
+              WordNet is from 1993. Some words it has never heard of. Gloss says so rather than
+              guessing, and offers you a search instead.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tint">
+      <div class="wrap narrow">
+        <div class="section-head">
+          <h2>How accurate is it?</h2>
+          <p>Measured, not claimed.</p>
+        </div>
+        <div class="card" style="padding: 26px 28px">
+          <p style="margin: 0 0 14px">
+            On seventy-three sentences written afterwards — with the meaning a careful reader
+            would say the writer meant marked for each one, and with the engine finished
+            before they were written — the right meaning came first
+            <b style="color: var(--ink)">seventy-three times</b>.
+          </p>
+          <p style="margin: 0 0 14px">
+            And on coverage: of the eight thousand eight hundred and sixty-nine commonest
+            English words that are not just grammar, Gloss answers
+            <b style="color: var(--ink)">ninety-seven in every hundred</b>. The rest are
+            function words — <i>these</i>, <i>into</i>, <i>against</i> — which nobody selects to
+            look up.
+          </p>
+          <p style="margin: 0 0 14px">
+            That is the dictionary doing the work: WordNet for the meanings, and a table of usage
+            notes — the kind a dictionary prints beside a word with several lives — for the ones
+            that need telling apart. The sentences are published, so you can check them.
+          </p>
+          <p style="margin: 0 0 14px">
+            On deliberately ambiguous words — <i>bank</i>, <i>charge</i>, <i>cast</i> — it is right
+            about half the time, which is why the panel shows the other meanings with their
+            examples rather than pretending to be certain.
+          </p>
+          <p style="margin: 0; color: var(--muted); font-size: 14px">
+            The sentences it is measured on are
+            <a href="data/holdout.json">published here</a>, each with the meaning a careful
+            reader would say the writer meant. So are the usage notes:
+            <a href="data/cues.json">here</a>. The check that reads them is in the source
+            repository.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>One product. It costs $19.99, once.</h2>
+          <p>
+            The extension, with every dictionary it needs inside it: WordNet, its 2020 refresh,
+            and Wiktionary. A million words with meanings, on your own machine, and no
+            subscription, no account, and nothing uploaded.
+          </p>
+        </div>
+        <div class="plans">
+          <div class="plan featured">
+            <span class="tag">The whole thing</span>
+            <h3>Gloss</h3>
+            <div class="price">$19.99 <small>once</small></div>
+            <ul>
+              <li>Select a word, see its meaning in context</li>
+              <li>Every other meaning, in order, with examples</li>
+              <li>Synonyms and opposites</li>
+              <li>Alt+click, without selecting</li>
+              <li>The reading mode, with its own size, width and focus controls</li>
+              <li>The words you have looked up, remembered — and the ones you keep, pinned</li>
+              <li>Your word list as text, CSV, an Anki file, or Markdown for Obsidian</li>
+              <li>Gloss's own PDF reader, with the same glossing and a zoom that works</li>
+              <li>The words you looked up in a PDF, exported as text or as a PDF</li>
+              <li>The whole dictionary inside, and no network at all</li>
+              <li>Works offline, for ever</li>
+            </ul>
+            <a
+              class="btn"
+              href="mailto:imhimanshu758@gmail.com?subject=Gloss%20%E2%80%94%20I%27d%20like%20to%20buy%20it&amp;body=Hello%2C%0A%0AI%27d%20like%20to%20buy%20Gloss.%0A%0APlease%20send%20it%20to%3A%0A%0A%20%28an%20email%20address%2C%20or%20a%20Telegram%20or%20Google%20Drive%20you%20can%20share%20to%29%0A%0AThank%20you."
+              >Buy it — write to me</a
+            >
+          </div>
+        </div>
+        <p class="note">
+          That is the whole product: one download, and it is yours. If it does not do what you
+          expected, write to me and I will refund it — no form, no questions.
+        </p>
+      </div>
+    </section>
+
+    <section class="tint" id="faq">
+      <div class="wrap">
+        <div class="section-head"><h2>Questions</h2></div>
+        <div class="faq">
+          <details open>
+            <summary>Does it send my browsing anywhere?</summary>
+            <p>
+              No. The dictionary is part of the extension — it is read from the extension's own
+              files, never downloaded. Gloss makes no network requests at all, which is why it
+              works with the network off.
+            </p>
+          </details>
+          <details>
+            <summary>How is this different from a dictionary extension?</summary>
+            <p>
+              Those give you the general meaning and leave you to work out which one the writer
+              meant. Gloss ranks the meanings by the sentence, so the one you want is at the top.
+              <a href="compare/dictionary-extensions.html">A longer comparison</a>.
+            </p>
+          </details>
+          <details>
+            <summary>Why not just use ChatGPT?</summary>
+            <p>
+              You can — if you have an account, an API key and a mind to paste the sentence into
+              a chat box. Gloss is offline, free of that, and answers in a panel instead of a
+              paragraph.
+            </p>
+          </details>
+          <details>
+            <summary>What does it store?</summary>
+            <p>
+              The list of words you have looked up, in your browser's own storage. It is used to
+              tell you "looked up before", and to stop underlining words you already know. It is
+              never sent anywhere, and you can clear it in the settings.
+            </p>
+          </details>
+          <details>
+            <summary>What about words no dictionary has?</summary>
+            <p>
+              Almost none now. Gloss carries three dictionaries: WordNet 3.1, its 2020 refresh,
+              and Wiktionary — a million words with meanings between them, which is why
+              <i>emoji</i> and <i>hashtag</i> answer as well as <i>sanguine</i> does. And a word
+              that no dictionary has, but that is a word, is said so plainly rather than
+              invented.
+            </p>
+          </details>
+          <details>
+            <summary>Does it work on a phone or a Kindle?</summary>
+            <p>
+              It is a browser extension, so it works in any browser that runs them. A phone app
+              and a Kindle app are a different piece of work, and a different product.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrap foot">
+        <a class="brand" href="index.html"><span class="mark">G</span>Gloss</a>
+        <nav>
+          <a href="privacy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          <a href="compare/dictionary-extensions.html">Comparisons</a>
+          <a href="download.html">Download</a>
+          <a href="compare/ai-assistants.html">vs AI assistants</a>
+          <a href="#pricing">Pricing</a>
+        </nav>
+        <span class="spacer"></span>
+        <span>Made by one person — <a href="mailto:imhimanshu758@gmail.com">write to me</a></span>
+      </div>
+    </footer>
+
+    <script type="module" src="js/demo.js"></script>
+  </body>
+</html>
